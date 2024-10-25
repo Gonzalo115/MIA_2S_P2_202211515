@@ -1,1 +1,9 @@
-# MIA_2S_P2_202211515
+# Universidad De San Carlos de Gutatemala
+
+LABORATORIO MANEJO E IMPLEMENTACION DE ARCHIVOS
+
+Seccion: B
+
+Nombre: Gonzalo Fernando Pérez Cazún
+
+Carné: 202211515
