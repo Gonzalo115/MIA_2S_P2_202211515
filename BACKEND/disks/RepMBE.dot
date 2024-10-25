@@ -1,0 +1,73 @@
+digraph G {
+		node [shape=plaintext]
+		tabla [label=<
+			<table border="0" cellborder="1" cellspacing="0" cellpadding="4" color="black">
+				<tr><td colspan="2" bgcolor="#008000"><font color="white"><b>REPORTE MBR</b></font></td></tr>
+				<tr><td bgcolor="#ddffce">mbr_tamano</td><td bgcolor="#ddffce">5242880</td></tr>
+				<tr><td bgcolor="#ddffce">mrb_fecha_creacion</td><td bgcolor="#ddffce">2024-09-18 13:44:00 -0600 CST</td></tr>
+				<tr><td bgcolor="#ddffce">mbr_disk_signature</td><td bgcolor="#ddffce">1054273741</td></tr>
+		
+				<tr><td colspan="2" bgcolor="#fff000"><font color="black"><b> PARTICIÓN 1 </b></font></td></tr>
+				<tr><td bgcolor="#fbf6a9">part_status</td><td bgcolor="#fbf6a9">0</td></tr>
+				<tr><td bgcolor="#fbf6a9">part_type</td><td bgcolor="#fbf6a9">P</td></tr>
+				<tr><td bgcolor="#fbf6a9">part_fit</td><td bgcolor="#fbf6a9">B</td></tr>
+				<tr><td bgcolor="#fbf6a9">part_start</td><td bgcolor="#fbf6a9">153</td></tr>
+				<tr><td bgcolor="#fbf6a9">part_size</td><td bgcolor="#fbf6a9">1024</td></tr>
+				<tr><td bgcolor="#fbf6a9">part_name</td><td bgcolor="#fbf6a9">Particion1</td></tr>
+			
+				<tr><td colspan="2" bgcolor="#fff000"><font color="black"><b> PARTICIÓN 2 </b></font></td></tr>
+				<tr><td bgcolor="#fbf6a9">part_status</td><td bgcolor="#fbf6a9">0</td></tr>
+				<tr><td bgcolor="#fbf6a9">part_type</td><td bgcolor="#fbf6a9">E</td></tr>
+				<tr><td bgcolor="#fbf6a9">part_fit</td><td bgcolor="#fbf6a9">B</td></tr>
+				<tr><td bgcolor="#fbf6a9">part_start</td><td bgcolor="#fbf6a9">1177</td></tr>
+				<tr><td bgcolor="#fbf6a9">part_size</td><td bgcolor="#fbf6a9">1048576</td></tr>
+				<tr><td bgcolor="#fbf6a9">part_name</td><td bgcolor="#fbf6a9">Particion2</td></tr>
+			
+				<tr><td colspan="2" bgcolor="#ff2121"><font color="white"><b> PARTICIÓN LOGICA </b></font></td></tr>
+				<tr><td bgcolor="#fed6d6">part_status</td><td bgcolor="#fed6d6">0</td></tr>
+				<tr><td bgcolor="#fed6d6">part_next</td><td bgcolor="#fed6d6">2231</td></tr>
+				<tr><td bgcolor="#fed6d6">part_fit</td><td bgcolor="#fed6d6">B</td></tr>
+				<tr><td bgcolor="#fed6d6">part_start</td><td bgcolor="#fed6d6">1207</td></tr>
+				<tr><td bgcolor="#fed6d6">part_size</td><td bgcolor="#fed6d6">1024</td></tr>
+				<tr><td bgcolor="#fed6d6">part_name</td><td bgcolor="#fed6d6">Particion5</td></tr>
+				
+				<tr><td colspan="2" bgcolor="#ff2121"><font color="white"><b> PARTICIÓN LOGICA </b></font></td></tr>
+				<tr><td bgcolor="#fed6d6">part_status</td><td bgcolor="#fed6d6">0</td></tr>
+				<tr><td bgcolor="#fed6d6">part_next</td><td bgcolor="#fed6d6">3285</td></tr>
+				<tr><td bgcolor="#fed6d6">part_fit</td><td bgcolor="#fed6d6">B</td></tr>
+				<tr><td bgcolor="#fed6d6">part_start</td><td bgcolor="#fed6d6">2261</td></tr>
+				<tr><td bgcolor="#fed6d6">part_size</td><td bgcolor="#fed6d6">1024</td></tr>
+				<tr><td bgcolor="#fed6d6">part_name</td><td bgcolor="#fed6d6">Particion6</td></tr>
+				
+				<tr><td colspan="2" bgcolor="#ff2121"><font color="white"><b> PARTICIÓN LOGICA </b></font></td></tr>
+				<tr><td bgcolor="#fed6d6">part_status</td><td bgcolor="#fed6d6">0</td></tr>
+				<tr><td bgcolor="#fed6d6">part_next</td><td bgcolor="#fed6d6">515315</td></tr>
+				<tr><td bgcolor="#fed6d6">part_fit</td><td bgcolor="#fed6d6">B</td></tr>
+				<tr><td bgcolor="#fed6d6">part_start</td><td bgcolor="#fed6d6">3315</td></tr>
+				<tr><td bgcolor="#fed6d6">part_size</td><td bgcolor="#fed6d6">512000</td></tr>
+				<tr><td bgcolor="#fed6d6">part_name</td><td bgcolor="#fed6d6">Particion7</td></tr>
+				
+				<tr><td colspan="2" bgcolor="#ff2121"><font color="white"><b> PARTICIÓN LOGICA </b></font></td></tr>
+				<tr><td bgcolor="#fed6d6">part_status</td><td bgcolor="#fed6d6">X</td></tr>
+				<tr><td bgcolor="#fed6d6">part_next</td><td bgcolor="#fed6d6">-1</td></tr>
+				<tr><td bgcolor="#fed6d6">part_fit</td><td bgcolor="#fed6d6">X</td></tr>
+				<tr><td bgcolor="#fed6d6">part_start</td><td bgcolor="#fed6d6">-1</td></tr>
+				<tr><td bgcolor="#fed6d6">part_size</td><td bgcolor="#fed6d6">-1</td></tr>
+				<tr><td bgcolor="#fed6d6">part_name</td><td bgcolor="#fed6d6">X</td></tr>
+				
+				<tr><td colspan="2" bgcolor="#fff000"><font color="black"><b> PARTICIÓN 3 </b></font></td></tr>
+				<tr><td bgcolor="#fbf6a9">part_status</td><td bgcolor="#fbf6a9">0</td></tr>
+				<tr><td bgcolor="#fbf6a9">part_type</td><td bgcolor="#fbf6a9">P</td></tr>
+				<tr><td bgcolor="#fbf6a9">part_fit</td><td bgcolor="#fbf6a9">B</td></tr>
+				<tr><td bgcolor="#fbf6a9">part_start</td><td bgcolor="#fbf6a9">1049753</td></tr>
+				<tr><td bgcolor="#fbf6a9">part_size</td><td bgcolor="#fbf6a9">1024</td></tr>
+				<tr><td bgcolor="#fbf6a9">part_name</td><td bgcolor="#fbf6a9">Particion3</td></tr>
+			
+				<tr><td colspan="2" bgcolor="#fff000"><font color="black"><b> PARTICIÓN 4 </b></font></td></tr>
+				<tr><td bgcolor="#fbf6a9">part_status</td><td bgcolor="#fbf6a9">0</td></tr>
+				<tr><td bgcolor="#fbf6a9">part_type</td><td bgcolor="#fbf6a9">P</td></tr>
+				<tr><td bgcolor="#fbf6a9">part_fit</td><td bgcolor="#fbf6a9">B</td></tr>
+				<tr><td bgcolor="#fbf6a9">part_start</td><td bgcolor="#fbf6a9">1050777</td></tr>
+				<tr><td bgcolor="#fbf6a9">part_size</td><td bgcolor="#fbf6a9">1048576</td></tr>
+				<tr><td bgcolor="#fbf6a9">part_name</td><td bgcolor="#fbf6a9">Particion4</td></tr>
+			</table>>] }

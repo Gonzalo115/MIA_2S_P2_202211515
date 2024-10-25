@@ -1,0 +1,31 @@
+digraph G {
+							node [shape=plaintext]
+							labelloc="t"
+							label="Reporte DISK"
+							fontsize=25;
+        					node [shape=plaintext]
+        					tabla [label=<
+            				<table border="1">
+                			<tr>
+                    		<td border="2" bgcolor="#3f3f3f"><font color="white"><b>MBR</b></font></td>
+							<td border="2" bgcolor="#7e7e7e"><font color="white"><b>PRIMARIA</b><br/>0.01953% del Disco</font></td>
+									 <td border="2">
+									<table border="1">
+									<tr>
+									<td colspan="7" border="1" bgcolor="#7e7e7e"><font color="white"><b>EXTENDIDA</b><br/>20% del Disco</font></td>
+									</tr>
+									<tr><td border="1" bgcolor="#b0b0b0"><font color="black"><b>EBR</b></font></td>
+										<td border="1" bgcolor="#ffffff"><font color="black"><b>LOGICA</b><br/>0.01953% del Disco <br/>0.09766% de la Particion</font></td>
+									<td border="1" bgcolor="#b0b0b0"><font color="black"><b>EBR</b></font></td>
+										<td border="1" bgcolor="#ffffff"><font color="black"><b>LOGICA</b><br/>0.01953% del Disco <br/>0.09766% de la Particion</font></td>
+									<td border="1" bgcolor="#b0b0b0"><font color="black"><b>EBR</b></font></td>
+										<td border="1" bgcolor="#ffffff"><font color="black"><b>LOGICA</b><br/>9.766% del Disco <br/>48.83% de la Particion</font></td>
+									<td border="1" bgcolor="#ffffff"><font color="black"><b>LIBRE</b> <br/>50.97% de la Particion</font></td>
+									</tr>
+									</table>
+            						</td> <td border="2" bgcolor="#7e7e7e"><font color="white"><b>PRIMARIA</b><br/>0.01953% del Disco</font></td>
+									 <td border="2" bgcolor="#7e7e7e"><font color="white"><b>PRIMARIA</b><br/>20% del Disco</font></td>
+									 <td border="2" bgcolor="#7e7e7e"><font color="white"><b>LIBRE</b><br/>59.96% del Disco</font></td>
+								</tr>
+							</table>>]
+							}
